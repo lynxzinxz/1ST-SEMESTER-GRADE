@@ -1,0 +1,109 @@
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #779F9F;
+    height: 10vh;
+}   
+
+h1 {
+    padding: 1%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #142929;
+}
+
+.main-container {
+    background-color: #B2D4D5;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 100px 50px;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0e290d;
+    text-align: center;
+    font-size: 25px;
+    padding: 2%;
+}
+
+th, td {
+    border: 2px solid #0f300e;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0c250b;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+input {
+    width: 440px;
+    padding: 10px;
+    text-align: center;
+    background-color: #B2D4D5;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="number"] {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: #142929;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: #6c7e6b;
+    font-weight: 100;
+}
+
+#total {
+    text-align: center;
+}
+
+label {
+    color: #0c250b;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.student-info {
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    text-indent: 10px;
+    text-transform: capitalize;
+    margin-right: 50px;
+    color: #142929;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info-holder {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: normal;
+}
+
+.info-holder input {
+    border: 0;
+    font-weight: normal;
+}

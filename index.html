@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>1st Semester Grade</title>
+</head>
+<body>
+  <header>
+    <h1>1st Semester Grade</h1>
+  </header>
+  <div class="main-container">
+    <div class="info-holder">
+      <label for="student-name">Student Name: </label>
+      <input type="text" name="student-name" class="student-info">
+      <label for="student-id">Student Number: </label> 
+      <input type="number" oninput="limitNumberLength(this, 15)" name="student-id" class="student-info">
+    </div>
+    <div class="table-content">
+      <table>
+        <tr>
+          <th></th>
+          <th>Scores</th>
+          <th>%</th>
+        </tr>
+          <tr>
+              <td>Quiz <strong>10%</strong></td>
+              <td><input type="number" id="quiz"  placeholder="Enter your score"></input></td>
+              <td><input type="number" id="res1" readonly></input></td>    
+            </tr>
+            <tr>
+              <td>Exam <strong>20%</strong></td>   
+              <td><input type="number" id="exam" placeholder="Enter your score"></input></td>
+              <td><input type="number" id="res2" readonly></input></td>    
+            </tr>
+            <tr>
+              <td>Project <strong>35%</strong></td>   
+              <td><input type="number" id="proj" placeholder="Enter your score"></input></td>  
+              <td><input type="number" id="res3" readonly></input></td>    
+            </tr>
+            <tr>
+              <td>Recitation <strong>15%</strong></td>  
+              <td><input type="number" id="recit" placeholder="Enter your score"></input></td>
+              <td><input type="number" id="res4" readonly></input></td>    
+            </tr>
+            <tr>
+              <td>Long Test <strong>15%</strong></td>  
+              <td><input type="number" id="lt" placeholder="Enter your score"></input></td>
+              <td><input type="number" id="res5" readonly></input></td>    
+            </tr>
+            <tr>
+              <td>Attendance <strong>5%</strong></td>  
+              <td><input type="number" id="att" placeholder="Enter your score"></input></td>
+              <td><input type="number" id="res6" readonly></input></td>    
+            </tr>
+            <tr>
+              <td><strong>Total Grade</strong></td>
+              <td id="total"></td>    
+            </tr>
+      </table>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
